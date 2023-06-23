@@ -19,7 +19,7 @@ const screen = {
                                             <li> <i class="fas fa-code-branch"></i> ${repo.forks} | </li> 
                                             <li> <i class="far fa-star"></i> ${repo.stargazers_count} | </li>
                                             <li> <i class="far fa-eye"></i> ${repo. watchers} | </li>
-                                            <li> <i class="fas fa-laptop-code"></i> ${repo.language}</li>
+                                            <li> <i class="fas fa-laptop-code"></i> ${repo.language ?? "Não informado"}</li>
                                         </ul>
                                     </a>
                                  </li>`
@@ -44,10 +44,10 @@ const screen = {
                                     <span>- ${commits[0].message}</span>
                                 </li>`
 
-            } else if(type === 'CreateEvent') {
+            } else {
                 eventsItens += `<li>
                                     <p>${event.repo.name}</p> 
-                                    <span>- ${type}</span>
+                                    <span>- Evento de criação sem mensagem</span>
                                 </li>`
             }
 
