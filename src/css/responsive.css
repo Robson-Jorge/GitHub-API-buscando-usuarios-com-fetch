@@ -16,6 +16,9 @@
   }
   
   @media (max-width: 768px) {
+    body{
+      background: url(../imagens-background/wallpaper-gitHub-mobile.png);
+    }
     .container header #input-search,
     .container header #btn-search
     {

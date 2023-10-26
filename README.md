@@ -16,8 +16,8 @@ Esta é a solução para o desafio proposto pela equipe do DevQuest
 
 ### Screenshot 
 
-![](./src/screenshot/screenshot.png)
-![](./src/screenshot/gitHub_usuario%20.gif)
+![](./src/screenshot/gitHub-usuario.gif)
+![](./src/screenshot/gitHub-usuario-mobile.gif)
 
 
 ## Meu processo

@@ -2,6 +2,7 @@
 
 body {
   background-color:#24292e;
+  background: url(../imagens-background/wallpaper-gitHub.png) center center /cover fixed;
   font-family: "Kumbh Sans", sans-serif; 
   font-weight: 300; 
   text-align: center;    
@@ -29,7 +30,12 @@ main {
   width: 60%;
   max-width: 960px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
-  background-color: #fff;
+
+  background: #072b3f40;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 5px solid rgba(255,255,255,0.25);
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,9 +52,10 @@ main {
 }
 
 .container header h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 30px;
+  color: #FFFFFF;
 }
 
 .container header #input-search {
@@ -68,12 +75,13 @@ main {
   border-radius: 7px;  
   cursor: pointer;
   border: 1px solid grey;
+  transition: .4s ease;
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: #43bd8d;
   color: #ffffff;
-  border-color: #ffffff;
+  box-shadow: 0px 0px 10px #1891D4;
 }
 
 .container .profile-data{
@@ -91,6 +99,7 @@ main {
 }
 
 .container .profile-data .info .data{
+  color: #48d4b9;
   padding: 40px;
   width: 50%;
 }
@@ -98,7 +107,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  box-shadow: 4px 4px 15px #000000cc, -4px -4px 15px #000000cc;
 }
 
 .container .profile-data .info h1{
@@ -118,7 +127,7 @@ main {
   font-size: 15px;  
   font-weight: 400;
   line-height: 23px;
-  color: #3f3f3f;
+  color: #e08e00;
 }
 
 .container .profile-data .info .fa-user-friends{
@@ -128,6 +137,7 @@ main {
 .container .profile-data .repositories h2{
   margin-bottom: 30px;
   text-align: center;
+  color: #e08e00;
 }
 
 .container .profile-data .repositories ul{
@@ -137,8 +147,9 @@ main {
 }
 
 .container .profile-data .repositories ul li a{
+  color: #e08e00;
   padding: 20px;
-  border: 1px solid grey;  
+  border: 1px solid #e08e00; 
   margin: 20px;
   display: block;
   border-radius: 7px;
@@ -152,8 +163,12 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+  background-color:#e08e00;
   color: #fff
+}
+
+.container .profile-data .events{
+  color: #48d4b9;
 }
 
 .container .profile-data .events h2{
@@ -178,5 +193,5 @@ main {
 }
 .container .profile-data .events ul li span{
   width: 50%;
-  color: #3f3f3fda;
+  color: #ffffffda;
 }
