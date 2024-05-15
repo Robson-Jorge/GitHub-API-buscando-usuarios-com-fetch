@@ -2,6 +2,8 @@
 
 Esta é a solução para o desafio proposto pela equipe do DevQuest
 
+<figure><embed src="https://wakatime.com/share/@a4d24ebe-9f92-4b52-913d-aef4eaeb6a9d/1826b562-5f84-4630-8d3d-4fc8cd23c18a.svg"></embed></figure>
+
 ## Índice
 
 - visão geral
